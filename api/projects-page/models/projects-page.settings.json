@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_pages",
+  "info": {
+    "name": "ProjectsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "projectDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.project-details"
+    }
+  }
+}

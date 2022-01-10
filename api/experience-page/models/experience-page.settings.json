@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "experience_pages",
+  "info": {
+    "name": "ExperiencePage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "workDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.experience-details"
+    }
+  }
+}
