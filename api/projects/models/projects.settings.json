@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "name": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "external": {
+      "type": "string"
+    },
+    "projectFor": {
+      "type": "string"
+    },
+    "techStack": {
+      "collection": "tech-stack"
+    },
+    "personal": {
+      "type": "boolean"
+    },
+    "showInProjects": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
