@@ -1,3 +1,3 @@
 # Strapi application
 
-Strapi backend to my portfolio
+Strapi backend for my portfolio - https://jerome-marshall.github.io/
