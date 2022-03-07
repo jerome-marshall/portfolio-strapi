@@ -4,6 +4,7 @@ const config = parse(process.env.DATABASE_URL);
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
+    
     default: {
       connector: "bookshelf",
       settings: {
