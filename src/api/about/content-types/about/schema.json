@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "descriptionPast": {
-      "type": "string"
-    },
-    "descriptionPresent": {
-      "type": "string"
-    },
     "skillSet": {
       "type": "relation",
       "relation": "oneToMany",
