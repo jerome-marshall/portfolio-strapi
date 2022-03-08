@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_info_about_contents",
+  "info": {
+    "displayName": "AboutContent",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "descriptionPast": {
+      "type": "text"
+    },
+    "descriptionPresent": {
+      "type": "text"
+    }
+  }
+}

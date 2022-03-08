@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descriptionPast": {
+      "type": "string"
+    },
+    "descriptionPresent": {
+      "type": "string"
+    },
+    "skillSet": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tech-stack.tech-stack"
+    },
+    "heroContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info.hero-content"
+    },
+    "aboutContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info.about-content"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
