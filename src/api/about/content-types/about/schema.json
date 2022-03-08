@@ -29,6 +29,18 @@
     },
     "name": {
       "type": "string"
+    },
+    "contactContent": {
+      "displayName": "ContactContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "info.contact-content"
+    },
+    "socials": {
+      "displayName": "Social",
+      "type": "component",
+      "repeatable": true,
+      "component": "info.social"
     }
   }
 }
