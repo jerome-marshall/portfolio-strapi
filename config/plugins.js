@@ -1,6 +1,7 @@
-module.exports = {
+module.exports = ({ env }) => ({
+  
     graphql: {
-      endpoint: "/graphql",
+      endpoint: '/graphql',
       shadowCRUD: true,
       playgroundAlways: true,
       depthLimit: 7,
@@ -10,4 +11,4 @@ module.exports = {
         tracing: false,
       },
     },
-  };
+  });
