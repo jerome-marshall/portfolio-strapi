@@ -41,6 +41,15 @@
       "type": "component",
       "repeatable": true,
       "component": "info.social"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "info.about-content",
+        "info.contact-content",
+        "info.hero-content",
+        "info.social"
+      ]
     }
   }
 }

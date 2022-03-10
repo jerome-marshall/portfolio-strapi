@@ -19,7 +19,7 @@
     "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Jerome Marshall"
   },
   "strapi": {
     "uuid": "0cdcee6e-6887-4b41-bfbc-d613779ca2e8"
