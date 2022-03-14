@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_content_about_page_contents",
+  "info": {
+    "name": "AboutPageContent",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageContent": {
+      "type": "richtext"
+    },
+    "skillSet": {
+      "collection": "tech-stack"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

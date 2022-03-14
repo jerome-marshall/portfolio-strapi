@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "abouts",
+  "collectionName": "global_data",
   "info": {
-    "name": "About",
+    "name": "Global_Data",
     "description": ""
   },
   "options": {
@@ -13,6 +13,22 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "info": {
+      "type": "dynamiczone",
+      "components": [
+        "info.socials"
+      ]
+    },
+    "pageData": {
+      "type": "dynamiczone",
+      "components": [
+        "page-content.about-page-content",
+        "page-content.contact-page-content",
+        "page-content.experience-page-content",
+        "page-content.hero-page-content",
+        "page-content.projects-page-content"
+      ]
     }
   }
 }

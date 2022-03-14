@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_info_socials",
+  "info": {
+    "name": "Socials",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
