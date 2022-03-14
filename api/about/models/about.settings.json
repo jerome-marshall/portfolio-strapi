@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "hero_pages",
+  "collectionName": "abouts",
   "info": {
-    "name": "HeroPage"
+    "name": "About",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,14 +12,7 @@
   },
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
-    },
-    "shortDescription": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     }
   }
 }
