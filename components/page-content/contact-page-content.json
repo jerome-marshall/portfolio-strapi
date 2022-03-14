@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_content_contact_page_contents",
+  "info": {
+    "name": "ContactPageContent",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitleIntro": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "text"
+    }
+  }
+}

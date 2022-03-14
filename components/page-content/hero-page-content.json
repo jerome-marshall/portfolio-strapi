@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_content_hero_page_contents",
+  "info": {
+    "name": "HeroPageContent",
+    "icon": "chess-king"
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
